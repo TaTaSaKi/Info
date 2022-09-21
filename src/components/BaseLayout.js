@@ -25,13 +25,13 @@ export default function BaseLayout() {
                <Routes>
                   <Route exact path={'/'} element={<Home/>}/>
                   <Route exact path={'/about'} element={<About/>}/>
-                  <Route exact path={'/portfolio'} element={<Portfolio/>}/>
+                  <Route exact path={'/achievements'} element={<Portfolio/>}/>
                </Routes>
             </Grid>
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>template created with &hearts; by <a href={'https://paytonpierce.dev'}>Payton Pierce</a></p>
+                  <p>template created with &hearts; by <a href={'https://vannyratanakchheang.info'}>Chheang Vanny Ratanak</a></p>
                   <p>&copy; 2022</p>
                </Box>
             </Grid>
