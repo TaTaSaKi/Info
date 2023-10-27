@@ -8,16 +8,16 @@ import { yellow } from '@material-ui/core/colors';
 
 export default function About() {
     const firstName = info.firstName
-
+    
     function aboutMeText() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName} <span
                 className={Style.green}>(main)</span> $ </span>
                 cat About Me
             </p>
-            <p>
-                {info.bio}
-            </p>
+            <p>{info.bio}</p>
+            <p>{info.education}</p>
+            <p>{info.hob}</p>
         </>;
     }
 
@@ -62,7 +62,7 @@ export default function About() {
             </ul>
         </>;
     }
-
+    
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
             <Terminal text={aboutMeText()}/>

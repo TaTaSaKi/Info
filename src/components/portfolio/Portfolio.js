@@ -101,6 +101,22 @@ export default function Portfolio() {
                 Cloud Computing, Network Infrastructure Construction, Network & System Consultant
             </p>
             </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentStyle={{ background: "transparent"}}
+            date="Oct 2014 - Oct 2019"
+            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            icon={<SchoolIcon />}
+            >
+            <h3 className="vertical-timeline-element-title">
+                Graduated Engineering degree of Computer Science.
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+                Department of Information and Communication Engineering at Institute of Technology of Cambodia.
+            </h4>
+            <p>Computer Science</p>
+            </VerticalTimelineElement>
             <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "transparent"}}
@@ -126,21 +142,6 @@ export default function Portfolio() {
                 Clever Tech, Phnom Penh
             </h4>
             <p>Swift, iOS Development</p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            contentStyle={{ background: "transparent"}}
-            date="Oct 2014 - Jul 2019"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            icon={<SchoolIcon />}
-            >
-            <h3 className="vertical-timeline-element-title">
-                Graduated Engineering degree of Computer Science.
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-                Department of Information and Communication Engineering at Institute of Technology of Cambodia.
-            </h4>
-            <p>Computer Science</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
             iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}

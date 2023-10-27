@@ -73,11 +73,13 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Ratanak. I'm a former network & systems engineer at Institute of Technology of Cambodia. I graduated Master's degree of Computer Science at the Institute of Technology of Cambodia. Currently, I am enrolled in the Master of Science in Informatics program at Grenoble. I enjoy learning new technologies and playing games. You should hire me!",
+    bio: "Hello! I'm Ratanak. I'm a former network & systems engineer at Institute of Technology of Cambodia.",
+    education: "I earned a Master's degree in Computer Science from Institute of Technology of Cambodia and, currently pursuing a Master of Science in Informatics at Grenoble.",
+    hob: "I enjoy learning new technologies and playing games. You should hire me!",
     skills:
         {
             proficientWith: ['Python', 'Javascript', 'Java','C/C++', 'HTML', 'CSS', 'PHP', 'SQL'],
-            exposedTo: ['React-Native', 'Laravel', 'Nodejs', 'Moodle', 'Hyperledger Fabric'],
+            exposedTo: ['React-Native', 'React.js', 'Nodejs', 'Laravel', 'Moodle', 'Hyperledger Fabric'],
             devOp: ['Cloud Management','Proxmox', 'CentOS', 'Ubuntu', 'Kubernetes', 'Docker', 'OpenStack', 'Proxy','Nginx','Apache'],
             network: ['Network administration', 'Network construction', 'CISCO', 'FortiGate', 'MikroTik', 'Security', 'Wireless', 'Routing', 'Switching', 'Data Backups']
         }
