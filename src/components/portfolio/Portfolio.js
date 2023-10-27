@@ -28,11 +28,25 @@ export default function Portfolio() {
         {/* <h1>Hello CodeSandbox</h1> */}
 
         <VerticalTimeline>
-            
+            <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentStyle={{ background: "transparent"}}
+            date="Sep 2023 - Present"
+            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            icon={<SchoolIcon />}
+            >
+            <h3 className="vertical-timeline-element-title">
+                Master of Science in Informatics at Grenoble (MoSIG M2).
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+                Université Grenoble Alpes, IM²AG
+            </h4>
+            <p>Distributed computing: from cloud to edge computing, embedded systems and networking (DC)</p>
+            </VerticalTimelineElement>            
             <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "transparent"}}
-            date="Oct 2019 - present"
+            date="Oct 2019 - Sep 2023"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
             >

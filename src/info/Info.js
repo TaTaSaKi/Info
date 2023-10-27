@@ -26,7 +26,7 @@ export const info = {
     firstName: "Vanny Ratanak",
     lastName: "CHHEANG",
     initials: "🏡", // the example uses first and last, but feel free to use three or more if you like.
-    position: "Network & Systems Engineer",
+    position: "a Network & Systems Engineer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -60,7 +60,7 @@ export const info = {
             label: 'instagram'
         },
         {
-            link: "https://github.com/TaTaSaKi",
+            link: "https://github.com/vannyratanak",
             icon: "fa fa-github",
             label: 'github'
         },
@@ -73,12 +73,13 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Ratanak. I'm a network and systems engineer at Institute of Technology of Cambodia. I studied Master of Computer Science at Institute of Technology of Cambodia, I enjoy learning new teachnology and playing game. You should hire me!",
+    bio: "Hello! I'm Ratanak. I'm a former network & systems engineer at Institute of Technology of Cambodia. I graduated Master's degree of Computer Science at the Institute of Technology of Cambodia. Currently, I am enrolled in the Master of Science in Informatics program at Grenoble. I enjoy learning new technologies and playing games. You should hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'php'],
-            exposedTo: ['Nodejs', 'Hyperledger Fabric', 'Laravel', 'Python'],
-            devOp: ['Proxmox', 'CentOS', 'Ubuntu', 'Kubernetes', 'Docker', 'Nginx']
+            proficientWith: ['Python', 'Javascript', 'Java','C/C++', 'HTML', 'CSS', 'PHP', 'SQL'],
+            exposedTo: ['React-Native', 'Laravel', 'Nodejs', 'Moodle', 'Hyperledger Fabric'],
+            devOp: ['Cloud Management','Proxmox', 'CentOS', 'Ubuntu', 'Kubernetes', 'Docker', 'OpenStack', 'Proxy','Nginx','Apache'],
+            network: ['Network administration', 'Network construction', 'CISCO', 'FortiGate', 'MikroTik', 'Security', 'Wireless', 'Routing', 'Switching', 'Data Backups']
         }
     ,
     hobbies: [
